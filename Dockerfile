@@ -19,7 +19,7 @@ RUN echo "deb http://overviewer.org/debian ./" >> /etc/apt/sources.list && \
     wget -O - http://overviewer.org/debian/overviewer.gpg.asc | apt-key add - && \
     apt-get update -qq && \
     apt-get install -qq -y minecraft-overviewer && \
-    wget http://s3.amazonaws.com/Minecraft.Download/versions/1.8/1.8.jar -P ~/.minecraft/versions/1.8/
+    wget http://s3.amazonaws.com/Minecraft.Download/versions/1.9/1.9.jar -P ~/.minecraft/versions/1.9/
 
 # setup configuration directory
 RUN mkdir -p /etc/realmviewer
