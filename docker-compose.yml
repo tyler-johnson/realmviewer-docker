@@ -1,0 +1,4 @@
+realmviewer:
+  image: 'mrgalaxy/realmviewer:latest'
+  ports:
+    - '80:80'

@@ -1,0 +1,6 @@
+.git/
+node_modules/
+config.json
+maps/
+world/
+.session

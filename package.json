@@ -1,0 +1,19 @@
+{
+  "name": "realmviewer-docker",
+  "version": "1.0.0",
+  "description": "Builds the Docker image for realmviewer",
+  "private": true,
+  "author": "Tyler Johnson <tyler@vintyge.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tyler-johnson/realmviewer-docker.git"
+  },
+  "scripts": {
+    "start": "realmviewer --overviewer /usr/bin/overviewer.py --port 80 --host 0.0.0.0 -c config.json"
+  },
+  "dependencies": {
+    "realmviewer": "^1.0.0"
+  },
+  "keywords": [],
+  "license": "MIT"
+}
