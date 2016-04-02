@@ -1,4 +1,4 @@
-# Realme Viewer
+# Realm Viewer
 
 A service that fetches, renders, and hosts [Minecraft Realms](https://minecraft.net/realms) worlds as [Overviewer](http://overviewer.org) maps.
 
