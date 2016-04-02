@@ -9,7 +9,7 @@
     "url": "https://github.com/tyler-johnson/realmviewer-docker.git"
   },
   "scripts": {
-    "start": "realmviewer --overviewer /usr/bin/overviewer.py --port 80 --host 0.0.0.0 -c config.json"
+    "start": "realmviewer /etc/realmviewer --overviewer /usr/bin/overviewer.py --port 80 --host 0.0.0.0 -c config.json"
   },
   "dependencies": {
     "realmviewer": "^1.0.0"

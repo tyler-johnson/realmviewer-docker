@@ -21,6 +21,11 @@ RUN echo "deb http://overviewer.org/debian ./" >> /etc/apt/sources.list && \
     apt-get install -qq -y minecraft-overviewer && \
     wget http://s3.amazonaws.com/Minecraft.Download/versions/1.8/1.8.jar -P ~/.minecraft/versions/1.8/
 
+# setup configuration directory
+RUN mkdir -p /etc/realmviewer
+COPY overviewer_config.py /etc/realmviewer/
+VOLUME /etc/realmviewer
+
 # Create app directory
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
